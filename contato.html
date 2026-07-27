@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Kaiser Dev Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <a href="index.html" class="brand">Kaiser Dev Solutions</a>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Início</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Contato</p>
+          <h1>Pronto para criar algo incrível com a Kaiser Dev Solutions?</h1>
+          <p class="hero-text">Entre em contato por e-mail, WhatsApp ou redes sociais para falar sobre o seu projeto.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section reveal">
+        <div class="contact-grid">
+          <div class="info-card">
+            <p class="eyebrow">Fale conosco</p>
+            <h2>Informações de contato</h2>
+            <div class="info-list">
+              <div class="info-item">
+                <div class="social-icon">✉️</div>
+                <div>
+                  <strong>E-mail</strong>
+                  <p>contato@kaiserdevsolutions.com.br</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="social-icon">📱</div>
+                <div>
+                  <strong>Telefone</strong>
+                  <p>+55 11 98765-4321</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="social-icon">💬</div>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <p>+55 11 99876-5432</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a class="social-link" href="#">
+                <span class="social-icon">f</span>
+                <span>Facebook</span>
+              </a>
+              <a class="social-link" href="#">
+                <span class="social-icon">G</span>
+                <span>GitHub</span>
+              </a>
+              <a class="social-link" href="#">
+                <span class="social-icon">✈</span>
+                <span>Telegram</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Seu nome" required />
+            <input type="email" name="email" placeholder="Seu e-mail" required />
+            <textarea name="message" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            <p class="form-feedback" id="form-feedback"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Kaiser Dev Solutions. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
